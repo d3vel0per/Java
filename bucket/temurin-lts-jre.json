@@ -1,15 +1,15 @@
 {
     "description": "Eclipse Temurin is a runtime provided by Eclipse Adoptium for general use across the Java ecosystem",
     "homepage": "https://adoptium.net",
-    "version": "17.0.4-101",
+    "version": "21.0.6-7.0.LTS",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4.1+1/OpenJDK17U-jre_x64_windows_hotspot_17.0.4.1_1.zip",
-            "hash": "10b007eb1b424a83729e335917a4851e426d716349439aef71d63bbcba24b702"
+            "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.6+7/OpenJDK21U-jre_x64_windows_hotspot_21.0.6_7.zip",
+            "hash": "707c981a4ff9e680a9ea5d6f625eafe8bc47e1f89140a67d761fde24fc02ab49"
         }
     },
-    "extract_dir": "jdk-17.0.4.1+1-jre",
+    "extract_dir": "jdk-21.0.6+7-jre",
     "env_add_path": "bin",
     "env_set": {
         "JAVA_HOME": "$dir"
