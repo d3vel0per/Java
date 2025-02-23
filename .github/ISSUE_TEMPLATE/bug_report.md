@@ -1,33 +1,49 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: bug
-assignees: ''
-
+name: "Bug Report"
+about: "I am facing some problems."
+title: ""
+labels: "bug"
 ---
 
-**Troubleshooting before submitting**
-- [ ] Ran `scoop checkup` with no found problems?
-- [ ] Read the [wiki](https://github.com/lukesampson/scoop/wiki/Java) relevant for the manifest being installed?
-- [ ] Checked for [duplicate issues](https://github.com/ScoopInstaller/Java/issues?q=is%3Aissue), included closed ones?
-- [ ] Checked with [main scoop repo](https://github.com/lukesampson/scoop/issues) for related issues
+<!--
+  By opening this issue you confirm that you have searched for similar issues/PRs here already.
+  Failing to do so will most likely result in closing of this issue without any explanation.
+  Incomplete form details below might also result in closing of the issue.
+-->
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## Bug Report
 
-**To Reproduce**
-Steps to reproduce the behavior:
+**Package Name:** [name of package which has bug(s)]
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+### Current Behaviour
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+<!-- A clear and concise description of the behaviour. -->
 
-**Desktop (please complete the following information):**
- - Windows Version:
- - Powershell Version:
+### Expected Behaviour
 
-**Additional context**
-Add any other context about the problem here.
+<!-- A clear and concise description of what you expected to happen. -->
+
+### Additional context/output
+
+<!-- Add any other context about the problem here. If applicable, paste terminal output here to help explain. -->
+
+### Possible Solution
+
+<!--- Only if you have suggestions on a fix for the bug -->
+
+### System details
+
+**Windows version:** [e.g. 7, 8, 10]
+
+**OS architecture:** [e.g. 32bit, 64bit]
+
+**PowerShell version:** [output of `"$($PSVersionTable.PSVersion)"`]
+
+**Additional software:** [(optional) e.g. ConEmu, Git]
+
+#### Scoop Configuration
+<!-- Can be found in  ~/.config/scoop/config.json -->
+
+```json
+//# Your configuration here
+```

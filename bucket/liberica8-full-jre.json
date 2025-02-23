@@ -1,19 +1,19 @@
 {
     "description": "BellSoft Liberica is a 100% open-source Java 8 implementation",
     "homepage": "https://bell-sw.com/java",
-    "version": "8u345-1",
+    "version": "8u442-7",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bell-sw/Liberica/releases/download/8u345%2B1/bellsoft-jre8u345%2B1-windows-amd64-full.zip",
-            "hash": "sha1:c831e00a86fa140ef82f6659d5de3272b601c385"
+            "url": "https://github.com/bell-sw/Liberica/releases/download/8u442%2B7/bellsoft-jre8u442%2B7-windows-amd64-full.zip",
+            "hash": "sha1:082b0fc2d68cdafe52e6d6ae743097bc09580fb5"
         },
         "32bit": {
-            "url": "https://github.com/bell-sw/Liberica/releases/download/8u345%2B1/bellsoft-jre8u345%2B1-windows-i586-full.zip",
-            "hash": "sha1:6e3441dd071794ad989e25da38b4dc4692e1ec5c"
+            "url": "https://github.com/bell-sw/Liberica/releases/download/8u442%2B7/bellsoft-jre8u442%2B7-windows-i586-full.zip",
+            "hash": "sha1:5972c773a997b7363bf02a0282e78941ce07afb8"
         }
     },
-    "extract_dir": "jre8u345-full",
+    "extract_dir": "jre8u442-full",
     "env_add_path": "bin",
     "env_set": {
         "JAVA_HOME": "$dir"
